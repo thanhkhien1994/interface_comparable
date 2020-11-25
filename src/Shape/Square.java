@@ -1,3 +1,5 @@
+package Shape;
+
 public class Square extends Rectangle {
 
     public Square(String color, boolean filled, double side) {
@@ -18,7 +20,7 @@ public class Square extends Rectangle {
 
     @Override
     public String toString() {
-        return "Square{" +
+        return "Shape.Square{" +
                 "Side: " +getSide() +
                 super.toString() +
                 "}";

@@ -1,4 +1,8 @@
-public class Test {
+package Program;
+
+import Shape.*;
+
+public class TestShape {
     public static void main(String[] args) {
         Circle circle = new Circle();
         System.out.println(circle);
